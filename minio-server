@@ -1,0 +1,4 @@
+#!/bin/sh
+cd /var/log
+/opt/minio-server/minio mode fs /var/minio-server > /var/log/minio-server.out 2>&1
+
